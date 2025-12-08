@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color Palette - Luxury Beige/Stone/Cream */
+  --color-primary: #8b7355;
+  --color-primary-dark: #6d5a44;
+  --color-cream: #f5f1e8;
+  --color-beige: #e8dfd0;
+  --color-stone: #d4c7b5;
+  --color-dark: #2c2419;
+  --color-text: #3d3229;
+  --color-text-light: #6b5d50;
+  --color-white: #ffffff;
+  --color-accent-gold: #c9a96e;
+  
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+  --spacing-xl: 6rem;
+}
+
+@layer base {
+  @font-face {
+    font-family: 'Playfair Display';
+    src: url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+  }
+  
+  @font-face {
+    font-family: 'Inter';
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+  }
+
+  * {
+    @apply border-[#d4c7b5];
+  }
+
+  body {
+    @apply bg-[#f5f1e8] text-[#3d3229];
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+    font-weight: 400;
+  }
+
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    @apply text-[#2c2419];
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: 600;
+    @apply text-[#2c2419];
+  }
+
+  h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+    @apply text-[#2c2419];
+  }
+
+  h4 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    font-weight: 600;
+    @apply text-[#3d3229];
+  }
+
+  h5 {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    @apply text-[#3d3229];
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    @apply text-[#3d3229];
+  }
+
+  a {
+    @apply text-[#8b7355] transition-colors duration-300;
+  }
+
+  a:hover {
+    @apply text-[#6d5a44];
+  }
+}
