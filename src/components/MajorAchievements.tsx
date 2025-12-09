@@ -17,18 +17,18 @@ export function MajorAchievements() {
       title: 'Order Confirmation',
       image: '/images/bill2.jpg',
     },
-    {
-      title: 'Denim Fabric Sourcing',
-      image: '/images/pic1.jpg',
-    },
-    {
-      title: 'Fabric Store Visit',
-      image: '/images/pic2.jpg',
-    },
-    {
-      title: 'Product Sample Showcase',
-      image: '/images/pic4.jpg',
-    },
+    // {
+    //   title: 'Denim Fabric Sourcing',
+    //   image: '/images/pic1.jpg',
+    // },
+    // {
+    //   title: 'Fabric Store Visit',
+    //   image: '/images/pic2.jpg',
+    // },
+    // {
+    //   title: 'Product Sample Showcase',
+    //   image: '/images/pic4.jpg',
+    // },
   ];
 
   const [selected, setSelected] = useState<Project | null>(null);

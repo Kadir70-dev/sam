@@ -3,31 +3,20 @@ import { Quote } from 'lucide-react';
 export function Testimonials() {
   const testimonials = [
     {
-      name: 'ALHUB Dubai',
-      role: 'Business Development Partnership',
-      quote: 'Saima transformed our business development approach with zero marketing budget. Her organic networking and relationship-building skills brought us our first major revenue streams and established long-term partnerships that continue to grow.',
-      company: 'ALHUB',
-    },
-    {
-      name: 'IATF Dubai',
-      role: 'Lead Generation & Strategic Impact',
-      quote: 'The introduction of automated lead extraction tools revolutionized our operations. Saima\'s strategic approach resulted in 700,500+ in sales revenue within just 3 months, significantly increased visitor footfall, and attracted valuable European agency partnerships.',
-      company: 'IATF',
-    },
-    {
-      name: 'Global Buyer',
-      role: 'Sourcing Partnership',
-      quote: 'Working with Saima has been transformative for our sourcing strategy. Her deep understanding of both UAE and India markets, combined with transparent communication and reliable execution, has made her an invaluable partner in our supply chain.',
-      company: 'International Apparel Brand',
+      name: 'Bhavna Nihalani',
+      role: 'Show Director – IATF',
+      quote: `Saima is exceptionally talented and highly efficient in multitasking. Whether it was managing buyer activation programs, leading marketing initiatives, or driving sales activities, she executed every task with perfection and professionalism. Her efforts in connecting global textile buyers from around the world were truly commendable and added immense value to our show. I am confident that Saima will continue to achieve great success in all her future endeavors.`,
+      company: 'International Apparel & Textile Fair, Dubai',
     },
   ];
 
   return (
     <section id="testimonials" className="py-20 px-6">
       <div className="max-w-6xl mx-auto w-full">
+
         <div className="mb-12">
           <h2 className="mb-3">Testimonials</h2>
-          <p className="text-lg text-[#6b5d50]">What clients and partners say</p>
+          {/* <p className="text-lg text-[#6b5d50]">What clients and partners say</p> */}
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">
@@ -52,6 +41,7 @@ export function Testimonials() {
             </div>
           ))}
         </div>
+
       </div>
     </section>
   );

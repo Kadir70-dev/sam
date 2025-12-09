@@ -22,8 +22,8 @@ export function Expertise() {
   const companies = [
     { name: 'ALHUB', role: 'Business Development Manager' },
     { name: 'IATF Dubai', role: 'Lead Generation Specialist' },
-    { name: 'UAE Brands', role: 'Sourcing Consultant' },
-    { name: 'India Exporters', role: 'Trade Partner' },
+    // { name: 'UAE Brands', role: 'Sourcing Consultant' },
+    // { name: 'India Exporters', role: 'Trade Partner' },
   ];
 
   return (
@@ -74,7 +74,7 @@ export function Expertise() {
           </div>
 
           {/* Companies Worked With */}
-          <div className="lg:col-span-1 bg-white rounded-xl p-8 border border-[#d4c7b5]">
+          {/* <div className="lg:col-span-1 bg-white rounded-xl p-8 border border-[#d4c7b5]">
             <h4 className="mb-6">Experience</h4>
             
             <div className="space-y-4">
@@ -87,8 +87,8 @@ export function Expertise() {
                   <p className="text-xs text-[#6b5d50]">{company.role}</p>
                 </div>
               ))}
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>

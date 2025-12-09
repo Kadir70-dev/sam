@@ -10,6 +10,9 @@ import { SalesGrowth } from './components/SalesGrowth';
 import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { MajorAchievements } from './components/MajorAchievements';
+import { CategoriesWorking } from './components/Categories';
+import { CurrentProjects } from './components/CurrentProjects';
+
 
 export default function App() {
   return (
@@ -21,6 +24,8 @@ export default function App() {
         <Introduction />
         <History />
         <Expertise />
+        <CategoriesWorking />
+        <CurrentProjects />
         <FreelanceProfile />
         <Testimonials />
         <MajorAchievements />

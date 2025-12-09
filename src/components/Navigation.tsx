@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { DownloadCloud } from 'lucide-react';
 
 export function Navigation() {
-  const pdfPath = '/Portflio.pdf'; // public/Portflio.pdf
+  const pdfPath = '/Portflio.pdf';
 
   const handleDownload = () => {
     const link = document.createElement('a');

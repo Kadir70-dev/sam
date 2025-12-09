@@ -2,23 +2,17 @@ import { Mail, Phone, Linkedin, QrCode } from 'lucide-react';
 
 export function Contact() {
   const contactMethods = [
-    // {
-    //   icon: Mail,
-    //   label: 'Email',
-    //   value: 'saima.shaikh@example.com',
-    //   href: 'mailto:saima.shaikh@example.com',
-    // },
-    // {
-    //   icon: Phone,
-    //   label: 'WhatsApp',
-    //   value: '+971 XX XXX XXXX',
-    //   href: 'https://wa.me/971XXXXXXXX',
-    // },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
       href: 'https://www.linkedin.com/in/saima-shaikh-71125035b/',
+    },
+    {
+      icon: QrCode,
+      label: 'Website',
+      value: 'www.miraal.in',
+      href: 'https://www.miraal.in/',
     },
   ];
 
@@ -63,17 +57,7 @@ export function Contact() {
               </div>
             </div>
 
-            {/* {/* QR Code (optional) */}
-            {/* <div className="flex flex-col items-center justify-center">
-              <div className="w-40 h-40 rounded-xl bg-[#faf8f3] border-2 border-[#d4c7b5] flex items-center justify-center mb-4">
-                <QrCode className="w-20 h-20 text-[#d4c7b5]" />
-              </div>
-              <p className="text-xs text-[#6b5d50] text-center">
-                Scan to save contact information
-              </p>
-            </div> */}
-
-          </div> 
+          </div>
 
           {/* Footer tagline */}
           <div className="mt-10 pt-10 border-t border-[#e8dfd0] text-center">
